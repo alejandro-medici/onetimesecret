@@ -4,9 +4,9 @@ source "https://rubygems.org/"
 # PRODUCTION: bundle install --deployment --without dev
 
 gem 'addressable', '2.2.6'
-gem 'rack', '1.4.5'
+gem 'rack', '2.2.8.1'
 gem 'yajl-ruby', '1.1.0'
-gem 'thin', '1.5.0'
+gem 'thin', '1.5.1'
 
 gem 'mustache', '0.99.3'
 gem 'gibbler', '0.8.9'
@@ -18,7 +18,7 @@ gem 'storable', '0.8.9'
 gem 'encryptor', '1.1.3'
 gem 'bcrypt-ruby', '3.0.0'
 
-gem 'otto', '0.3.2'
+gem 'otto', '0.4.0'
 
 gem 'redis-dump', '0.3.2'
 
